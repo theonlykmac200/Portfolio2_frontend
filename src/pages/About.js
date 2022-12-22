@@ -1,3 +1,4 @@
+
 import {useState, useEffect} from 'react';
 import { useLoaderData } from 'react-router';
 
@@ -6,12 +7,12 @@ function About (props) {
     const [about, setAbout] = useState(null);
 
     const getAboutData = async () => {
-        const response = await fetch(`${props.URL}/about/`);
+        const response = await fetch(props.URL + "about" );
         const data = await response.json();
         setAbout(data);
  };
 
- useEffect(() => getAboutData(), []);
+ useEffect(() => {getAboutData()}, []);
 
 const loaded = () => (
     <div>
