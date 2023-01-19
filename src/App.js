@@ -11,7 +11,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 
 function App() {
-  const URL = "https://theonlykmac-portfolio.herokuapp.com/";
+  const URL = "https://portfolio2theonlykmac.herokuapp.com/";
   return (
     <div className="App">
       <Header />
