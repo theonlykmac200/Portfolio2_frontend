@@ -16,9 +16,9 @@ function Header (props) {
        <header>
             <h1> Kelly McDonald's Portfolio page</h1>
             <nav style={NavStyle}>
-                <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
                 <Link to="/projects">Projects</Link>
+                <Link to="/">Contact Kelly</Link>
             </nav>
        </header>
     );
