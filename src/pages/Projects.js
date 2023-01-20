@@ -15,20 +15,24 @@ function Projects(props) {
 
     const loaded = () => {
         return projects.map((project) => (
-            <div className='proj'>
+            <div className='projcard'>
+                <div className='proj'>
                 <h2>{project.name}</h2>
                 <img className='logo' src={project.image}/>
                 
-                <div>
-                    <a href={project.git}>
-                        <button>Github</button>
-                    </a>
-                    <a className='git' href={project.live}>
-                        <button className='net'>Live</button>
-                    </a>
-                </div>
+                    <div>
+                        <a href={project.git}>
+                            <button>Github</button>
+                        </a>
+                        <a className='git' href={project.live}>
+                            <button className='net'>Live</button>
+                        </a>
+                    </div>
                 
+                </div>
+
             </div>
+            
 
         ))   
 }

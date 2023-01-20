@@ -21,7 +21,6 @@ function App() {
         <Route path="/projects" element={<Projects URL={URL} />} />
       </Routes>
       <Footer />
-     
     </div>
   );
 }
