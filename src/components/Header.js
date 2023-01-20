@@ -17,7 +17,7 @@ function Header (props) {
             <nav className='navcss' style={NavStyle}>
                 <Link to="/about">About</Link>
                 <Link to="/projects">Projects</Link>
-                <Link to="/">Contact Kelly</Link>
+                <Link to="/home">Contact Kelly</Link>
             </nav>
        </header>
     );

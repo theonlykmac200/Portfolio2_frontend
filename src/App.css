@@ -25,6 +25,7 @@
 }
 .navcss {
   background-color: rgb(90, 130, 132);
+  font-size: 24px;
  
 }
 a:link {
@@ -55,6 +56,24 @@ button {
   padding: 10px;
   margin: 10px;
   font-size: 16px;
+}
+.bio {
+  width: 70%;
+  margin: auto;
+  font-size: 20px;
+  text-align: left;
+  
+}
+.headshot {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.linkedin {
+  font-size: 25px;
 }
 
 

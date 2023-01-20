@@ -16,10 +16,10 @@ function About (props) {
 
 const loaded = () => (
     <div>
-        <img src={about.headshot}/>
+        <img className='headshot' src={about.headshot}/>
         <h2>{about.name}</h2>
         <h2>{about.email}</h2>
-        <h2>{about.bio}</h2>
+        <h2 className='bio'>{about.bio}</h2>
     </div>
  )
  return about ? loaded() : <h1>Loading...</h1>;
